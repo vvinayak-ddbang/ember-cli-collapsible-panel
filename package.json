@@ -1,7 +1,7 @@
 {
-  "name": "ember-collapsible-panel",
+  "name": "ember-cli-collapsible-panel",
   "version": "1.0.0",
-  "description": "An unopinionated, zero-dependency panel and accordion",
+  "description": "A copy of ember-collapsible-panel",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -13,16 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tedconf/ember-collapsible-panel.git"
+    "url": "https://github.com/vvinayak-ddbang/ember-cli-collapsible-panel.git"
   },
-  "bugs": {
-    "url": "https://github.com/tedconf/ember-collapsible-panel/issues"
-  },
-  "homepage": "https://tedconf.github.io/ember-collapsible-panel/",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "TEDconf and contributors",
+  "original-author": "TEDconf and contributors",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",

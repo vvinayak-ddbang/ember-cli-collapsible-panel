@@ -1,29 +1,18 @@
-# Ember-collapsible-panel
+# Ember-cli-collapsible-panel
 
-[![Build
-Status](https://travis-ci.org/tedconf/ember-collapsible-panel.svg?branch=master)](https://travis-ci.org/tedconf/ember-collapsible-panel)
-[![npm
-version](https://badge.fury.io/js/ember-collapsible-panel.svg)](http://badge.fury.io/js/ember-collapsible-panel)
-<!--[![Ember Observer-->
-<!--Score](http://emberobserver.com/badges/ember-collapsible-panel.svg)](http://emberobserver.com/addons/ember-collapsible-panel)-->
-
+This is a replica of the Ember-collapsible-panel, Developed by [TedConf](https://github.com/tedconf/ember-collapsible-panel).
+The Interactive demo for the original component is Available at: 
 [Interactive documentation](http://tedconf.github.io/ember-collapsible-panel/)
 
+Modification:
+The original component uses an {{#if}} block and removes the panel body whenever the panel is collapsed.
+Modifying this behaviour, by taking in a parameter 'hidePanel' {Boolean}, to add a feature to just hide the panel body instead of removing it from the DOM
 
 ## Installation
 
 ```
-ember install ember-collapsible-panel
+ember install ember-cli-collapsible-panel
 ```
 
-## Development
 
-**Documentation**
-
-The docs are simply this addon's dummy app. To deploy, run
-
-```
-git checkout master
-ember github-pages:commit --message "Update gh-pages"
-```
 
