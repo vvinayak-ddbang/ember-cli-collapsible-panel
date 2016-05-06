@@ -6,6 +6,10 @@
     </div>
   {{/liquid-if}}
 
+{{else if hidePanel}}
+  <div {{bind-attr class=":cp-Panel-body-inner isOpen:show:hide"}}>
+      {{yield}}
+    </div>
 {{else}}
 
   {{#if isOpen}}
